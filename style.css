@@ -1,0 +1,229 @@
+header{
+    background: rgba(229, 84, 115, 0.10); display: flex;
+    justify-content: center;
+}
+header div{
+    padding: 60px 60px 0px 60px;
+}
+header div h1{
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+header div p{
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+header div button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+}
+header img{
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+    padding-right: 90px;
+    padding-top: 20px;
+}
+.fp{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+.intro{
+    text-align: center; padding-top: 100px;
+}
+.fn{
+    color: #272727;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+.cmnt{
+    color: #27272799;
+    line-height: 20px;
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.h3{
+    color: #272727;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.ful{
+    border-radius: 300px 300px 0 0;
+    margin-bottom: 15 px; padding: 20px 20px 0px 20px;
+}
+.support{
+    width: 1300px; display: flex;
+    height: 320px; justify-content: space-around;
+    flex-shrink: 0; align-items: center;
+    border-radius: 8px; margin: 100px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.sale{
+    width: 1960px; display: flex;
+    height: 500px;
+    flex-shrink: 0; align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.sale-txt{
+    padding: 120px;
+}
+.sale-h3{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+}   
+.off{
+    color: #E55473;
+}
+.sale-cmnt{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center; word-wrap: break-word;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.sale-btn{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.insta-txt{
+    text-align: center; padding-top: 100px;
+}
+.insta-p{
+    color: #272727;
+    font-size: 40px;    
+    font-weight: 800;
+}
+.insta-cmnt{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.insta-pic{
+    display: flex; justify-content: space-around;
+    align-items: center; padding-bottom: 100px;
+}
+.sub{
+    width: 1300px; margin-left: 110px; margin-bottom: 100px;
+    height: 420px; justify-content: space-around;
+    flex-shrink: 0; align-items: center;
+    background-image: url(FLowers/Rectangle\ 9.png);
+}
+.sub-txt{
+    text-align: center; padding-top: 100px;
+}
+.sub-txt-h1{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800px;
+}
+.sub-txt-cmnt{
+    color: rgba(39, 39, 39, 0.60);  
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width: 650px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.submit{
+    width: 120px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+}
+.foot{
+    width: 1520px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+}
+.foot-text{
+    padding-top: 100px;
+    
+}
+.foot-text-h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+.foot-text-cmnt{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    justify-content: center;
+    text-align: center;    
+}
+.credit{
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.shop{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
